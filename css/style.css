@@ -26,6 +26,23 @@ body {
     position: relative;
 }
 
+.custm-info-btn {
+    display: block;
+    width: 139px;
+    height: 46px;
+    margin: 0px -5px -5px;
+    text-align: center;
+    text-decoration: none;
+    transition: .3s;
+    color: #fff;
+    padding: 0px 0px 10px;
+}
+
+.custm-info-btn:hover {
+    background-color: red;
+    color: #fff;
+}
+
 .information-manu li {
     list-style-type: none;
     font-size: 12px;
@@ -51,5 +68,27 @@ body {
 
 .main-manu li {
     list-style-type: none;
-    font-size: 17px;
+    transition: .3s;
+    border-right: 1px dashed red;
+}
+
+.custom-info-second {
+    display: block;
+    padding: 10px 0px;
+    width: 100%;
+    font-size: 14px !important;
+}
+
+.custom-info-second a {
+    text-decoration: none;
+    color: #8cc643;
+}
+
+.custom-info-second:hover {
+    background-color: red;
+}
+
+.custom-info-second:hover a {
+    color: #fff;
+    display: block;
 }
