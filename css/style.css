@@ -1,0 +1,55 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: url(../images/bg_main.gif) repeat-y scroll center top rgba(0, 0, 0, 0);
+    background-size: cover;
+}
+
+.aling-problem {
+    margin: 0px 135px;
+}
+
+
+/* Global css here end */
+
+.top-header {
+    background-color: #9e5bba;
+    color: #fff;
+}
+
+.information-manu {
+    background-color: #8cc643;
+    display: inline;
+    position: relative;
+}
+
+.information-manu li {
+    list-style-type: none;
+    font-size: 12px;
+    line-height: 20px;
+    margin: 5px;
+}
+
+.information-manu::after {
+    content: ' ';
+    position: absolute;
+    background-image: url(../images/infographic-corner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 0px;
+    left: -26px;
+    width: 58px;
+    height: 100%;
+}
+
+.cust-menu-bg {
+    background-color: #efefef;
+}
+
+.main-manu li {
+    list-style-type: none;
+    font-size: 17px;
+}
