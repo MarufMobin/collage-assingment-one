@@ -57,7 +57,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     top: 0px;
-    left: -26px;
+    left: 0px;
     width: 58px;
     height: 100%;
 }
@@ -105,3 +105,22 @@ body {
 
 
 /* hero-section working end */
+
+
+/* footer section  */
+
+.top-footer {
+    background-image: url(../images/footer_top_bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 84px;
+    padding: 40px 0px;
+}
+
+.footer-cust-border {
+    border-bottom: 3px solid #9E5BBA;
+}
+
+
+/* footer section  */
