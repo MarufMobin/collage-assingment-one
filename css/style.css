@@ -5,7 +5,7 @@
 
 body {
     background: url(../images/bg_main.gif) repeat-y scroll center top rgba(0, 0, 0, 0);
-    background-size: cover;
+    background-size: contain;
 }
 
 .aling-problem {
@@ -81,7 +81,7 @@ body {
 
 .custom-info-second a {
     text-decoration: none;
-    color: #8cc643;
+    color: #609513;
 }
 
 .custom-info-second:hover {
@@ -91,6 +91,10 @@ body {
 .custom-info-second:hover a {
     color: #fff;
     display: block;
+}
+
+.cust-size-img {
+    width: 180px;
 }
 
 
@@ -108,7 +112,16 @@ body {
     font-size: 14px;
     width: 50%;
     margin-bottom: 15px;
-    border-bottom: 2px solid #000;
+    border-bottom: 2px solid #609513;
+}
+
+.jonoprio-menu {
+    display: flex;
+}
+
+.jonoprio-menu li {
+    list-style-type: none;
+    margin-right: 50px;
 }
 
 
@@ -123,7 +136,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 84px;
-    padding: 40px 0px;
+    padding: 55px 0px;
 }
 
 .footer-cust-border {
